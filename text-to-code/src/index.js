@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ImageToWeb from './image-to-web';
+import EditablePage from './editable-page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ImageToWeb /> */}
+    <EditablePage />
   </React.StrictMode>
 );
 
